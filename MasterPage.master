@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#"   AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="style/masterstyle.css" rel="stylesheet" />
+    <link href="style/pagesstyle.css" rel="stylesheet" />
+     <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <style type="text/css">
+        .auto-style1 {
+            width: 100%;
+        }
+    </style>
+    <script src="javascibt/JavaScript.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server" > 
+    <div>
+<header class="header">
+ 
+                <nav>
+                <a href="addpatient.aspx"><section class="headersection" >Add Patient</section></a>
+                
+                <a href="Search.aspx"><section class="headersection"> Search</section></a>
+                <a href="Settings.aspx">  <section class="headersection">  Settings</section></a>
+  
+                <a href="Reports.aspx"> <section class="headersection">  Reports</section></a>
+   </nav>
+           <table class="auto-style1">
+        <tr>
+            <td><h1>Draz</h1> </td>
+            <td> 
+                
+         <table   class="tblheader">
+             <tr>
+                 <th><h3><asp:Label ID="Label2" runat="server" Text="Label"></asp:Label></h3></th>
+                 <th> <asp:Button ID="Button1" CssClass="settingbtn" runat="server" Text="log out" OnClick="Button1_Click"  CausesValidation="false"/>   </th >
+
+    
+  
+             </tr>
+             <tr>
+                 <th  rowspan="2"><h3>Date:
+                     <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label> </h3>
+
+                 </th>
+             </tr>
+         </table>
+
+
+
+
+</td>
+        </tr>
+    </table>    
+    
+    
+
+
+
+</header>
+<div class="clearfix"></div>
+
+
+
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+  
+</body>
+</html>

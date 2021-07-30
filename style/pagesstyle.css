@@ -1,0 +1,263 @@
+﻿body {
+}
+/*searchpage*/
+.leftaside{
+    width:25%;
+   background-color:#444141;
+    height:100%;
+  position:fixed;
+  margin-top:0;
+    float:left;
+    padding:15px;
+    overflow:hidden;
+}
+.asection{
+
+    width:100%;
+
+}
+.gridviewsearch
+{
+    margin:15px auto;
+   
+
+}
+
+.rightaside {
+    width: 74%;
+    
+    height: 100%;
+    float: right;
+    margin-top: 0;
+  
+}
+
+#h {
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    height: 70px;
+    display: block;
+}
+.leftaside bdi{color:#fff;font-size:x-large ;}
+.radio{margin:0px;display:inline; padding:15px}
+
+
+/*addpage ,alldata ,sitting*/
+
+
+.addpatient{
+    top:10px;
+    z-index:0;
+    width:60%;
+      margin-left: auto; 
+  margin-right: auto;
+   position:relative;
+   /*left:20%;*/
+    height:100%;
+    border:3px solid black;
+    background-color:#a49d9d;
+    direction: ltr;
+    overflow-x:auto;
+}
+.add_txt{
+  margin: 10px auto;
+  text-align-last:center;
+   text-align:center;
+
+    position:relative;
+    font-size:large;
+    border:1px solid #300b0b;
+    float:left;
+     top: -8px;
+    left: 0px;
+}
+.lname{
+   font-size:x-large;
+   margin:0 auto;
+  
+}
+.ldis{
+    font-size:x-large;
+   margin:0 auto;
+   
+}
+.addtable{
+  
+   margin-left:50px;
+}
+.addtable2{
+
+    margin-left:20px
+
+}
+.addplussection{
+   display:none;
+ margin:0 auto;
+ padding :0;
+     transition: all .7s ease-in-out;
+
+
+}
+.editusersection {
+    top: 10px;
+    z-index: 0;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    /*left:20%;*/
+    height: 300px;
+    border: 1.5px solid black;
+    background-color: #a49d9d;
+    overflow:hidden;
+
+}
+.editplussection{
+
+       margin-left:20px;
+}
+.addplustable{
+
+    left:80px;
+
+}
+.sittingbtn{
+
+    background-color:#e6dddd; 
+            position:center; 
+           height:40px;
+            margin-top:15px;
+           font-size:large;
+        margin-bottom;
+            border:2px solid #fff;
+            position:relative;
+        margin-left:35% ;
+        margin-right:auto;
+         
+        
+}
+.addbtn{    background-color:#e6dddd; 
+          
+           height:40px;
+            margin-top:20px;
+           font-size:large;
+           margin-bottom:15px;
+            border:2px solid #fff;
+            position:relative;
+         left:34%
+}
+.addbtn:hover{    background-color:#e6dddd; 
+          transform:scaleY(1,2);
+           height:40px;
+            margin-top:20px;
+           font-size:large;
+           margin-bottom:15px;
+            border:2px solid #fff;
+            position:relative;
+         left:34%;
+}
+
+.showhidebtn{
+        background-color:#e6dddd; 
+            position:center; 
+            width:100px;height:40px;
+            border:2px solid #fff;
+            margin-top:20px;
+           font-size:large;
+           position:relative;
+           left:39%;
+            margin-bottom:15px;
+}
+.add_dis{
+    
+      text-align-last:auto;
+   
+    width:500px;
+    font-size:x-large;
+    border:2px solid #300b0b;
+    margin-top:25px;
+    margin-left:40px;
+   line-break:auto;
+}
+.followcheck{
+
+    float:right;
+    margin-left: 16px;
+}
+.addmindiv{
+
+    margin-left:95px
+
+}
+.lmin{
+
+  
+}
+.SEARCHBTN {
+    background-color: #e6dddd;
+    position: relative;
+    margin-top: 20px;
+    font-size: large;
+    margin-bottom: 15px;
+    border: 2px solid #fff;
+    height: 40px;
+    left: 9%;
+   width:182px;
+    
+}
+a {
+   text-decoration:none;
+    font-style:normal;
+    text-underline-position:unset;
+}
+.Lsetting{
+
+    margin-left:10px;
+    margin-right:10px;
+
+}
+.reporttable td{
+
+    margin:0 auto;
+    padding:10px;
+    border:1px solid #444141;
+
+}
+.reporttable{
+    padding:0;
+width:100%
+}
+.settingbtn{ width:100%; color:white;background-color:#444141 ;border:0; font:bold ;height:30px}
+.reporttable h3{color:#3e3c3c}
+.header span {color:orange}
+.header h3{color:red }
+.myimage{
+    width:100px;
+    height:100px;
+      padding:3px;
+      border:1px solid #808080;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    -webkit-box-shadow:1px 1px  #a49d9d;
+    -moz-transition:all 1s ease-in-out;
+    
+  -o-transition:all 1s ease-in-out;
+  transition:all 1s ease-in-out;
+   
+    
+
+}
+.myimage:hover{
+
+    width:300px;
+    height:300px;
+      padding:3px;
+      border:2px solid #808080;
+      border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    -webkit-box-shadow:3px 3px  #a49d9d;
+    
+    
+}
